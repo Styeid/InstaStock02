@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homescreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22222B"
+    android:orientation="vertical"
+    tools:context=".LoggiActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cllogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="9dp">
+
+        <ImageView
+            android:id="@+id/ivhome"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/flipflop01" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/bangers"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ivhome"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:fontFamily="@font/bangers"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etemail" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#45FFECB3"
+            android:fontFamily="@font/bangers"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#D18C5A5A"
+            android:textSize="49sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ivhome"
+            app:layout_constraintTop_toBottomOf="@+id/etpassword" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

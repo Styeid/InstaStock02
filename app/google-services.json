@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "450748871277",
+    "project_id": "instastock-f5986",
+    "storage_bucket": "instastock-f5986.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450748871277:android:3b37b94002259763110564",
+        "android_client_info": {
+          "package_name": "com.jufaja.instastock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450748871277-j4tgl7hnso2h04kh9r6tal0qlsib3p9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0pqUG3knRW6ZYKsebWbpVsOtqt1HgzHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450748871277-j4tgl7hnso2h04kh9r6tal0qlsib3p9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450748871277:android:8b62788a9d5722f2110564",
+        "android_client_info": {
+          "package_name": "com.jufaja.instastock11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450748871277-j4tgl7hnso2h04kh9r6tal0qlsib3p9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0pqUG3knRW6ZYKsebWbpVsOtqt1HgzHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450748871277-j4tgl7hnso2h04kh9r6tal0qlsib3p9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
