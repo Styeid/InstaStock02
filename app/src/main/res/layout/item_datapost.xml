@@ -1,404 +1,408 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:orientation="vertical">
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#464646">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
+        android:background="#282828"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_margin="1dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvdatumt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="Datum"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvfundt"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="Fund"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvpartyt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="Party"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvpartyvaluet"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="PartyValue"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvtotalpartyt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TotalValue"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_margin="1dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvdatumfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                tools:text="22 Feb 2022" />
-
-            <TextView
-                android:id="@+id/tvfundfs"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="10sp"
-                tools:text="WorldEquityIndex(Euro)" />
-
-            <TextView
-                android:id="@+id/tvpartyfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                tools:text="3434,34343" />
-
-            <TextView
-                android:id="@+id/tvpartyvaluefs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                tools:text="797,79" />
-
-            <TextView
-                android:id="@+id/tvtotalpartyfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                tools:text="4343,34" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="10dp"
             android:layout_margin="1dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/tvusert"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="User"
                 android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvdatumt"
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="Datum"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvfundt"
+                android:layout_width="120dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="Fund"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvpartyt"
+                android:layout_width="75dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="Party"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvpartyvaluet"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="PartyValue"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvtotalpartyt"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TotalValue"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvplbytermt"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="P/LByTerm"
                 android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvplfromorgt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="75dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="P/LFromOrg"
                 android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvcebytermt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="CeByTerm"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvceformorgt"
                 android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="CeFormOrg"
                 android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvcebytermt"
+                android:layout_width="65dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="CeByTerm"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvalvaluet"
+                android:layout_width="65dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="AlValue"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvalbytermt"
+                android:layout_width="65dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="AlByTerm"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvalfromorgt"
+                android:layout_width="65dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="AlFromOrg"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvpercentagext"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="Perc.X"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tvpercentageyt"
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="Perc.Y"
+                android:textAlignment="center"
+                android:textColor="#B3BEBE"
+                android:textSize="8sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="13dp"
             android:layout_margin="1dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/tvuserfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="Bram" />
 
             <TextView
-                android:id="@+id/tvplbytermfs"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/tvdatumfs"
+                android:layout_width="60dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
+                tools:text="22 Feb 2022" />
+
+            <TextView
+                android:id="@+id/tvfundfs"
+                android:layout_width="120dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
+                tools:text="WorldEquityIndex(Euro)" />
+
+            <TextView
+                android:id="@+id/tvpartyfs"
+                android:layout_width="75dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
+                tools:text="3434,34343" />
+
+            <TextView
+                android:id="@+id/tvpartyvaluefs"
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
+                tools:text="797,79" />
+
+            <TextView
+                android:id="@+id/tvtotalpartyfs"
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
+                tools:text="4343,34" />
+
+            <TextView
+                android:id="@+id/tvplbytermfs"
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/ubuntu"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="3434,34" />
 
             <TextView
                 android:id="@+id/tvplfromorgfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="75dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="7979,79" />
 
             <TextView
                 android:id="@+id/tvcebytermfs"
                 android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="34,34" />
 
             <TextView
                 android:id="@+id/tvceformorgfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="65dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="79,79" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_margin="1dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvalvaluet"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="AlValue"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvalbytermt"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="AlByTerm"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvalfromorgt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="AlFromOrg"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvpercentagext"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="Perc.X"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-            <TextView
-                android:id="@+id/tvpercentageyt"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/ubuntu"
-                android:text="Perc.Y"
-                android:textAlignment="center"
-                android:textColor="#494949"
-                android:textSize="10sp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/tvalvaluefs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="65dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="11318,53" />
 
             <TextView
                 android:id="@+id/tvalbytermfs"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_width="65dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="3434,34" />
 
             <TextView
                 android:id="@+id/tvalfromorgfs"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_width="65dp"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="7979,79" />
 
             <TextView
                 android:id="@+id/tvpercentagexfs"
                 android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="34,34" />
 
             <TextView
                 android:id="@+id/tvpercentageyfs"
                 android:layout_width="70dp"
-                android:layout_height="wrap_content"
+                android:layout_height="12dp"
+                android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ubuntu"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="12sp"
+                android:textColor="#AAAAAA"
+                android:textSize="8sp"
                 tools:text="79,79" />
+
         </LinearLayout>
 
     </LinearLayout>
